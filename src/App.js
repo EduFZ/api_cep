@@ -1,24 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import { Endereco } from './screens/Endereco';
+import { Sobre } from './screens/Sobre';
+import { NotFound } from './screens/NotFound';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
-function App() {
+export function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+
+      <BrowserRouter>
+        <Routes>
+          <Route path='/endereco/:cep' element={<Endereco />} />
+          <Route path='/' element={<Sobre />} />
+          <Route path='*' element={<NotFound />} />
+        </Routes>
+      </BrowserRouter>
+
+    </>
   );
 }
 

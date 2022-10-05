@@ -2,6 +2,7 @@ import { Endereco } from './screens/Endereco';
 import { Sobre } from './screens/Sobre';
 import { NotFound } from './screens/NotFound';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { NormalizeStyles } from './shared/NormalizeStyles';
 
 export function App() {
   return (

@@ -3,6 +3,7 @@ import { Colors, BorderRadius, FontSizes, FontFamilies, FontWeights, Shadows } f
 
 export const Button = styled.a `
     display: inline-flex;
+    margin: 2vh 0 2vh 0;
     align-items: center;
     justify-content: center;
     border: none;

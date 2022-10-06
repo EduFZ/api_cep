@@ -4,6 +4,7 @@ import { TitleTwo } from '../common-components/TitleTwo/TitleTwo.js';
 import { Description } from '../common-components/Description/Description.js';
 import { Button } from '../common-components/Button/Button.js';
 import { SearchCep } from '../common-components/SearchCep/SearchCep.js';
+import { Footer } from '../common-components/Footer/Footer.js';
 
 export function Sobre() {
     return (
@@ -15,6 +16,7 @@ export function Sobre() {
             <SearchCep />
             <Button>Clique aqui</Button>
         </Card>
+        <Footer />
     </div>
     );
 }

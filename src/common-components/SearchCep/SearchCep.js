@@ -3,8 +3,10 @@ import { Colors, Shadows, BorderRadius, FontSizes, FontWeights, FontFamilies } f
 
 const Input = styled.input`
     display: flex;
-    width: 60%;
+    width: 50%;
     height: 5vh;
+    margin: 2vh 0 2vh 0;
+    padding: 0 0 0 1vw;
     background-color: ${Colors.WHITE};
     border-radius: ${BorderRadius.BORDER_ALL};
     font-size: ${FontSizes.ONE};

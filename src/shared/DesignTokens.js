@@ -30,5 +30,5 @@ export const FontWeights = {
 
 export const BorderRadius = {
     BORDER_ALL: '10px',
-    BORDER_TOP: '22px',
+    BORDER_TOP: '22px 22px 0 0',
 }

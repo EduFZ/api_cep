@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { Colors, Shadows, BorderRadius, FontSizes, FontFamilies } from './../../shared/DesignTokens';
+ 
 
 const Wrapper = styled.header `
     width: 100%;
@@ -15,6 +16,7 @@ const Input = styled.input`
     display: flex;
     width: 60%;
     height: 5vh;
+    padding: 0 0 0 1vw;
     background-color: ${Colors.WHITE};
     border-radius: ${BorderRadius.BORDER_ALL};
     font-size: ${FontSizes.ONE};

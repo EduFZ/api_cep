@@ -1,15 +1,17 @@
 import { createGlobalStyle } from "styled-components";
-import { FontFamilies } from "./DesignTokens";
+import { Colors, FontFamilies } from "./DesignTokens";
 
 export const NormalizeStyles = createGlobalStyle `
 
     * {
         box-sizing: border-box;
+        padding: 0;
+        margin: 0;
     }
 
     body {
-        margin: none;
-        font-family: ${FontFamilies.PRIMARY}
+        background-color: ${Colors.NEUTRAL_WHITE};
+        font-family: ${FontFamilies.PRIMARY};
     }
 
     strong {

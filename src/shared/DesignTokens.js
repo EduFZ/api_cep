@@ -12,12 +12,23 @@ export const FontFamilies = {
 };
 
 export const Shadows = {
-    SHADER_ONE: '0px 4px 4px rgba(0, 0, 0, 0.1)',
-    SHADER_TWO: '8px 4px 14px rgba(0, 0, 0, 0.15)',
+    SHADOW_HEADER: '8px 4px 14px rgba(0, 0, 0, 0.15)',
+    SHADOW_CARD: '0px 4px 4px rgba(0, 0, 0, 0.1)',
+    SHADOW_FOOTER: '8px -4px 14px rgba(0, 0, 0, 0.15)',
 };
+
+export const FontSizes = {
+    ONE: '14px',
+    TWO: '16px',
+}
 
 export const FontWeights = {
     THIN: 300,
     REGULAR: 400,
     BOLD: 800,
+}
+
+export const BorderRadius = {
+    BORDER_ALL: '10px',
+    BORDER_TOP: '22px',
 }

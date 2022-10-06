@@ -7,7 +7,7 @@ import { NormalizeStyles } from './shared/NormalizeStyles';
 export function App() {
   return (
     <>
-
+      <NormalizeStyles />
       <BrowserRouter>
         <Routes>
           <Route path='/endereco/:cep' element={<Endereco />} />

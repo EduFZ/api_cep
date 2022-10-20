@@ -1,3 +1,10 @@
+import { Header } from './../common-components/Header/Header.js';
+
 export function NotFound() {
-    return <div>Página não encontrada!</div>;
+    return (
+        <>
+            <Header />
+            <div>Página não encontrada!</div>
+        </>
+    );
 }

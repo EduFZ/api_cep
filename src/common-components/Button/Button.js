@@ -1,7 +1,8 @@
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 import { Colors, BorderRadius, FontSizes, FontFamilies, FontWeights, Shadows } from './../../shared/DesignTokens';
 
-export const Button = styled.a `
+export const Button = styled(Link) `
     display: inline-flex;
     margin: 2vh 0 2vh 0;
     align-items: center;

@@ -5,8 +5,9 @@ import { Description } from '../common-components/Description/Description.js';
 import { Button } from '../common-components/Button/Button.js';
 import { SearchCep } from '../common-components/SearchCep/SearchCep.js';
 import { Footer } from '../common-components/Footer/Footer.js';
+import { Link } from 'react-router-dom';
 
-export function Sobre() {
+export function Sobre({ cep, logradouro, bairro, localidade, uf }) {
     return (
     <div>
         <Header />
@@ -14,7 +15,7 @@ export function Sobre() {
             <TitleTwo>Sobre Você</TitleTwo>
             <Description>Seu CEP</Description>
             <SearchCep />
-            <Button>Clique aqui</Button>
+            <Button to={`/mostracep`}>Clique aqui</Button>
         </Card>
         <Footer />
     </div>
